@@ -375,7 +375,7 @@
           .text(function(d) { return(d.id) })
           .on("click", function(d) {
             var curr = d3.select(this)[0][0].outerHTML;
-            if (curr.indexOf("700") > -1) {
+            if (curr.indexOf("700") > -1) { // second click on a scene turns them all off
               d3.selectAll(".ltxt").attr("class", "ltxt")
               d3.selectAll("circle.ind3")
                 .transition().attr("fill-opacity", 0.35)
@@ -385,7 +385,7 @@
                 .attr("fill", function(d) { return(col(d.shorter)) })
               note.html("")
               d3.selectAll("#play p").attr("style", "font-weight:300")
-            } else {
+            } else { // show the scene
               d3.selectAll("#play p").attr("style", "font-weight:300")
               d3.select(this).attr("style", "font-weight:700")
               highlight_inds(d.nodes)
