@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Titillium+Web:400,300italic,300,400italic,600,700" type="text/css">
+    <link rel="stylesheet" href="tip.css" type="text/css">
+    <script src="d3.min.js" charset="utf-8"></script>
+    <script src="d3.tip.js" charset="utf-8"></script>
+    <style>
+      html, body { margin: 0; padding: 0; font-family:'Titillium Web',Arial,Helvetica,sans-serif; }
+      p { font-weight:300; font-size:14px;}
+      #play p { 
+        border:1px solid #ddd; 
+        box-shadow: 0 0 11px #ddd inset;
+        display: inline-block;
+        padding: 7px 12px;
+        cursor:pointer;
+      }
+      #footer { 
+        font-family:'Titillium Web',Arial,Helvetica,sans-serif; 
+        font-weight:300;
+        font-size:10px;
+        width:100%; 
+        border-top: 1px solid #ddd; 
+        margin-top:20px; color:#ddd;
+      }
+      #container { margin:auto; width:1010px; padding:0px; }
+      #play { margin:auto; padding-bottom:20px; padding-top:20px; text-align:center; display:inline-block; }
+      #mds { display:inline-block; width:800px; padding:0px; border:1px solid white; }
+      #legend { display:inline-block; margin-left: 20px; padding:0px; border:1px solid whit; width:180px; }
+      #note { 
+        font-family:'Titillium Web',Arial,Helvetica,sans-serif; 
+        font-weight:300; 
+        font-size:12px; 
+      }
+      rect.indrect { cursor:pointer; }
+      circle.ind3 { cursor:pointer; }
+      text.ltxt { font-family:'Titillium Web',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; cursor:pointer; }
+      text.ltxt.selected { font-family:'Titillium Web',Arial,Helvetica,sans-serif; font-weight:600; font-size:14px; cursor:pointer; }
+      text.indlab { font-family:'Titillium Web',Arial,Helvetica,sans-serif; font-weight:700; font-size:12px; cursor:pointer; }
+      .overlay { fill: none; pointer-events: all; cursor:pointer; }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h3>Which industries exhibit similar threat profiles?</h3>
+      <p>Figure 19 from the 2014 DBIR presented the frequency of incident patterns across the various industry verticals. The major takeaway was that different industries exhibit substantially different threat profiles and therefore cannot possibly have the same remediation priorities. That may be a rather "no duh" finding, but keep in mind most security standards treat all requirements as equal stepping stones on a path to 100% compliance. Past reports have emphasized that with security, there is no "one size fits all" approach. It is our fervent hope that that data sowed some seeds of change, and this year we'd like to help grow that crop a bit more.</p>
+      <p>Whereas last year's report asked <i>"Do all organizations share similar threat profiles?"</i>, we now want to explore what we believe to be a much better question: "<i>Which industries exhibit similar threat profiles?"</i> Just as our nine patterns helped to simplify a complex issue last year, we believe that answering this question can help clarify the "so what?" question for different verticals.</p>
+      <p>We've made an interactive version of Figure 19 from the <a href="http://verizonenterprise.com/DBIR/2015">2015 DBIR</a> to help you explore this question on your own. As a refresher, each dot represents an industry "subsector" (we chose to use the three-digit <a href="http://www.census.gov/eos/www/naics/">NAICS</a> codes&mdash;rather than the first two only&mdash;to illustrate more specificity in industry groupings). The size of the dot relates to the number of incidents recorded for that subsector over the last three years (larger == more). The distance between the dots shows how incidents in one subsector compare to that of another. If dots are close together, it means incidents in those subsectors share similar VERIS characteristics such as threat actors, actions, compromised assets, etc. If far away, it means the opposite. In other words, <i>subsectors with similar threat profiles appear closer together</i>.</p>
+      <p>Hover over the two-digit, top-level industries in the legend to highlight those in the chart and see just how close (or far) they are from each other. Hover over individual dots to see a description of that sub-sector and also get a count of the number of incidents for that sub-sector.</p>
+      <p>We've included a few key findings that you can select to see what the DBIR team had to say about them.</p>
+      <div style="max-width:100%">
+        <div id="play"></div>
+      </div>
+      <div id="mds"></div>
+      <div id="legend"></div> 
+      <div id="footer">Copyright &copy; 2015 Verizon</div>
+    </div>
+  <script>
+    var tdat, ndat;
+    var margin = {  top: 15, right: 15, bottom: 20, left: 15 };
+    var lmargin = { top: 5, right: 5, bottom: 5, left: 5 };
+    var height = 465, width = 770, lwidth = 170, lheight = 490;
+    var x, y, r, col;
+    var mds, legend, circles, labels;
+    var lsize = 14;
+    var industries;
+    var brush, tip;
+
+    var inds = {
+      "Accomodation "   : { icon:"hotel",         lkp:"72"    },
+      "Administrative " : { icon:"pencil",        lkp:"56"    },
+      "Educational "    : { icon:"mortar-board",  lkp:"61"    },
+      "Entertainment "  : { icon:"music",         lkp:"71"    },
+      "Finance "        : { icon:"money",         lkp:"52"    },
+      "Healthcare "     : { icon:"medkit",        lkp:"62"    },
+      "Information "    : { icon:"info",          lkp:"51"    },
+      "Management "     : { icon:"briefcase",     lkp:"55"    },
+      "Manufacturing "  : { icon:"cubes",         lkp:"31-33" },
+      "Mining "         : { icon:"diamond",       lkp:"21"    },
+      "Other Services " : { icon:"circle-thin",   lkp:"81"    },
+      "Professional "   : { icon:"clipboard",     lkp:"54"    },
+      "Public "         : { icon:"building",      lkp:"92"    },
+      "Real Estate "    : { icon:"home",          lkp:"53"    },
+      "Retail "         : { icon:"shopping-cart", lkp:"44-45" },
+      "Trade "          : { icon:"ship",          lkp:"42"    },
+      "Transportation " : { icon:"truck",         lkp:"48-49" },
+      "Utilities "      : { icon:"power-off",     lkp:"22"    }
+    }
+
+    highlight_inds = function(inds) {
+
+       // pass in an array of dots to highlight
+       // lighten opacity of all non-highlighted nodes
+       // increase opacity of all highlighted nodes
+       // change text color of highlighted nodes
+
+       d3.selectAll("circle.ind3"+inds.map(function(x) { return(":not(#c"+x+")") }).join(""))
+         .transition().attr("fill-opacity", 0.15)
+       d3.selectAll("text.indlab"+inds.map(function(x) { return(":not(#t"+x+")") }).join(""))
+         .transition().attr("fill-opacity", 0.15)
+
+       d3.selectAll("circle.ind3")
+         .filter(inds.map(function(x) { return("#c"+x) }).join(", "))
+         .transition().attr("fill-opacity", 0.85)
+       d3.selectAll("text.indlab")
+         .filter(inds.map(function(x) { return("#t"+x) }).join(", "))
+         .attr("fill-opacity", 1.0)
+         .attr("fill", "black")
+
+    }
+
+    // make all dots normal again
+
+    reset_inds = function() {
+
+      d3.selectAll("circle.ind3")
+        .transition().attr("fill-opacity", 0.35)
+
+      d3.selectAll("text.indlab")
+        .transition()
+        .attr("fill-opacity", 1.0)
+        .attr("fill", function(d) { return(col(d.shorter)) })
+
+    }
+
+    // display the MDS vis
+
+    display_ind = function(data) {
+
+      // setup x scale, y scale, cicle radius scale & industry color scale
+
+      x = d3.scale.linear()
+            .range([0, width])
+            .domain(d3.extent(data, function(d) { return d.x; }));
+
+      y = d3.scale.linear()
+            .range([height, 0])
+            .domain(d3.extent(data, function(d) { return d.y; }));
+
+      r = d3.scale.linear()
+            .range([6, 30])
+            .domain(d3.extent(data, function(d) { return d.size / 2; }));
+
+      // need the list of industries we're using
+
+      industries = d3.set(d3.map(data, function(d) {
+          return (d.shorter)
+      }).keys().sort()).values();
+
+
+      // we uses this color scale alot
+
+      col = d3.scale.category20().domain(industries);
+
+      // build the main mds container
+
+      mds = d3.select("#mds")
+              .append("svg")
+              .attr("width", width + margin.left + margin.right)
+              .attr("height", height + margin.top + margin.bottom)
+              .append("g")
+              .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+              .append("g")
+
+     // need this to handle events in "blank" areas
+
+     mds.append("rect")
+        .attr("class", "overlay")
+        .attr("width", width)
+        .attr("height", height)
+        .on("click", function(d) {
+           d3.selectAll("circle.ind3")
+             .transition().attr("fill-opacity", 0.35)
+           d3.selectAll("text.indlab")
+             .transition()
+             .attr("fill-opacity", 1.0)
+             .attr("fill", function(d) { return(col(d.shorter)) })
+           note.html("")
+           d3.selectAll("#play p").attr("style", "font-weight:300")
+        })
+
+     // used in the "scenes"
+     // foreignObjet lets us use HTML vs deal with <tspan> wrapping
+
+     note = mds.append("foreignObject")
+               .attr("x", 75)
+               .attr("y", 300)
+               .attr("id", "note")
+               .attr("width", 400)
+               .attr("height", 300)
+               .append("xhtml:body")
+               .html("")
+
+     // create base structure for tooltips
+
+     tip = d3.tip().attr('class', 'd3-tip')
+             .html(function(d) { 
+                return '<table><tr valign="center"><td align="middle" style="padding-right:5px"><i style="color:' +
+                       col(d.shorter) + '"" class="fa fa-' +
+                       inds[d.shorter].icon + ' fa-2x"></i></td>' + 
+                       '<td><b>' + d.shorter + "</b><br/>&#8618;" + d.lbl +
+                       "<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total: " + d.size + "</td></tr></table>";
+              })
+              .direction(function(d) {
+                if (d.industry == "211" ||
+                    d.industry == "928") {
+                  return("e")
+                }
+                if (d.industry == "486") {
+                  return("se")
+                }
+                if (d.industry == "722" ||
+                    d.industry == "445") {
+                  return("w")
+                }
+                if (d.industry == "522" ||
+                    d.industry == "485" ||
+                    d.industry == "491" ||
+                    d.industry == "524") {
+                  return("w")
+                }
+                return("n")
+              });
+
+       // add the circles
+
+       circles = mds.selectAll(".ind3")
+                    .data(data)
+                    .enter().append("circle");
+
+       circles.attr("cx", function(d) { return x(d.x) })
+              .attr("cy", function(d) { return y(d.y) })
+              .attr("r", function(d) { return (r(d.size / 2)) })
+              .style("fill", function(d) { return (col(d.shorter))  })
+              .attr("fill-opacity", 0.33)
+              .attr("class", function(d) { return("ind3 " + d.shorter.replace(/ /g,'')) })
+              .on('mouseover', tip.show)
+              .on('mouseout', tip.hide)
+              .attr("id", function(d, i) { return("c" + d.industry) })
+
+       // add the labels
+
+       labels = mds.selectAll(".indlab")
+                   .data(data)
+                   .enter().append("text");
+
+       labels.attr("class", function(d) { return("indlab " + d.shorter.replace(/ /g,'')) })
+             .style("text-anchor", "middle")
+             .attr("pointer-events", "none")
+             .text(function(d) { return (d.industry) })
+             .attr("x", function(d) { return x(d.x) })
+             .attr("y", function(d) { return y(d.y) + 5.25 })
+             .attr("fill", function(d) { return (col(d.shorter)) })
+             .attr("id", function(d, i) { return("t" + d.industry) })             
+
+       // make the legend
+
+       legend = d3.select("#legend")
+                  .append("svg")
+                  .attr("width", lwidth + lmargin.left + lmargin.right)
+                  .attr("height", lheight + lmargin.top + lmargin.bottom)
+                  .append("g")
+                  .attr("transform", "translate(" +
+                        lmargin.left + "," + lmargin.top + ")")
+                  .append("g");
+
+       leg = legend.selectAll("indrect")
+                   .data(industries)
+                   .enter()
+                   .append("rect")
+                   .attr("class", function(d) { return("indrect " + d.replace(/ /g,'')) })
+                   .attr("x", 0)
+                   .attr("y", function(d, i) { return(2 + i*lsize + 7*i) })
+                   .attr("width", lsize)
+                   .attr("height", lsize)
+                   .attr("stroke", function(d) { return(col(d)) })
+                   .attr("stroke-width", "1px")
+                   .attr("fill", function(d) { return(col(d)) })
+                   .on("mouseover", function(d) {
+                     d3.selectAll("circle.ind3:not(." + d.replace(/ /g,'') + ")")
+                       .transition().attr("fill-opacity", 0.05)
+                     d3.selectAll("text.indlab:not(." + d.replace(/ /g,'') + ")")
+                       .transition().attr("fill-opacity", 0.05)
+                     d3.selectAll("circle.ind3." + d.replace(/ /g,''))
+                       .transition().attr("fill-opacity", 0.85)
+                     d3.selectAll("text.indlab." + d.replace(/ /g,''))
+                       .transition()
+                       .attr("fill-opacity", 1.0)
+                       .attr("fill", "black")
+                     note.html("")
+                     d3.selectAll("#play p").attr("style", "font-weight:300")
+                    })
+                   .on("mouseout", function(d) {
+                     d3.selectAll("circle.ind3")
+                       .transition().attr("fill-opacity", 0.35)
+                     d3.selectAll("text.indlab")
+                       .transition()
+                       .attr("fill-opacity", 1.0)
+                       .attr("fill", function(d) { return(col(d.shorter)) })
+                     note.html("")
+                     d3.selectAll("#play p").attr("style", "font-weight:300")
+                   })
+
+       legend.selectAll(".ltxt")
+             .data(industries)
+             .enter()
+             .append("text")
+             .attr("class", "ltxt")
+             .text(function(d) { return(d + "[" + inds[d].lkp + "]") })
+             .attr("x", 20)
+             .attr("y", function(d, i) { return(lsize + i*lsize + 7*i) })
+             .attr("fill", function(d) { return(col(d)) })
+             .on("mouseover", function(d) {
+                d3.selectAll(".ltxt").attr("class", "ltxt")
+                d3.select(this).attr("class", "ltxt selected")
+                d3.selectAll("circle.ind3:not(." + d.replace(/ /g,'') + ")")
+                  .transition().attr("fill-opacity", 0.15)
+                d3.selectAll("text.indlab:not(." + d.replace(/ /g,'') + ")")
+                  .transition().attr("fill-opacity", 0.15)
+                d3.selectAll("circle.ind3." + d.replace(/ /g,''))
+                  .transition().attr("fill-opacity", 0.85)
+                d3.selectAll("text.indlab." + d.replace(/ /g,''))
+                  .transition()
+                  .attr("fill-opacity", 1.0)
+                  .attr("fill", "black")
+                note.html("")
+                d3.selectAll("#play p").attr("style", "font-weight:300")
+             })
+             .on("mouseout", function(d) {
+                d3.selectAll(".ltxt").attr("class", "ltxt")
+                d3.selectAll("circle.ind3")
+                  .transition().attr("fill-opacity", 0.35)
+                d3.selectAll("text.indlab")
+                  .transition()
+                  .attr("fill-opacity", 1.0)
+                  .attr("fill", function(d) { return(col(d.shorter)) })
+                note.html("")
+                d3.selectAll("#play p").attr("style", "font-weight:300")
+             })
+
+       // use tooltips
+
+       circles.call(tip);
+
+    }
+
+    // this sets up the directed scene "play" nav boxes
+    // they're just fancy <p> tags
+
+    display_nav = function(data) {
+
+      play = d3.select("#play")
+      
+      play.selectAll("p")
+          .data(data)
+          .enter().append("p")
+          .text(function(d) { return(d.id) })
+          .on("click", function(d) {
+            d3.selectAll("#play p").attr("style", "font-weight:300")
+            d3.select(this).attr("style", "font-weight:700")
+            highlight_inds(d.nodes)
+            note.html("<div style='background:#ddd; padding:10px;'>" + d.note + "</div>")
+          })
+
+    }
+
+    // read the data in, ensure we have the right types and build graphic
+
+    d3.csv("industrymds.csv", function(d) {
+
+      return {
+        x: +d.x,
+        y: +d.y,
+        lbl: d.lbl,
+        industry: d.industry,
+        ind2: d.ind2,
+        shorter: d.shorter,
+        size: +d.size
+      };
+
+    }, function(error, data) {
+
+      tdat = data ;
+
+      display_ind(data);
+
+    })
+
+    // read in the "scenes"
+
+    d3.csv("scenes.csv", function(d) {
+
+      return {
+        id: +d.id,
+        nodes: d.nodes.split("|"),
+        note: d.note
+      };
+
+    }, function(error, data) {
+
+      ndat = data ;
+
+      display_nav(data);
+
+    })
+
+  </script>
+  </body>
+</html>
