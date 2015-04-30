@@ -11,7 +11,7 @@
 <body>
 
 <div id="container"></div>
-<script src="./sigma.min.js"></script><script src="./sigma.parsers.gexf.min.js"></script>
+<script src="./sigma.min.js"></script><script src="./sigma.parsers.json.js"></script>
 <!--<script>
 sigma.parsers.gexf('https://s3.amazonaws.com/gabe1/filtered_dbir.gexf', {
     container: 'container',
@@ -34,7 +34,7 @@ sigma.parsers.gexf('https://s3.amazonaws.com/gabe1/filtered_dbir.gexf', {
     return neighbors;
   });
 
-  sigma.parsers.gexf('./dbir_full.gexf', {
+  sigma.parsers.json('./dbir_full.json', {
     container: 'container',
     settings: {
       defaultNodeColor: '#ec5148'
