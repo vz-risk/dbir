@@ -1,0 +1,2973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2015-04-30">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="d2" title="sub-type" type="string"></attribute>
+      <attribute id="d1" title="weight" type="double"></attribute>
+      <attribute id="d0" title="type" type="string"></attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="d3" title="source" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="action.malware.vector.Email link" label="action.malware.vector.Email link">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.00824715991844"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="46.01482" y="-157.50272" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="Incident Ends" label="Incident Ends">
+        <attvalues>
+          <attvalue for="d2" value="End"></attvalue>
+          <attvalue for="d1" value="0.01"></attvalue>
+          <attvalue for="d0" value="End"></attvalue>
+        </attvalues>
+        <viz:size value="6.1429954"></viz:size>
+        <viz:position x="-189.03322" y="209.70502" z="0.0"></viz:position>
+        <viz:color r="133" g="195" b="8"></viz:color>
+      </node>
+      <node id="attribute.confidentiality.data.variety.Payment" label="attribute.confidentiality.data.variety.Payment">
+        <attvalues>
+          <attvalue for="d2" value="attribute.confidentiality"></attvalue>
+          <attvalue for="d1" value="0.0509030002913"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="10.244186"></viz:size>
+        <viz:position x="-153.8013" y="-68.44031" z="0.0"></viz:position>
+        <viz:color r="133" g="8" b="195"></viz:color>
+      </node>
+      <node id="attribute.integrity.variety.Modify data" label="attribute.integrity.variety.Modify data">
+        <attvalues>
+          <attvalue for="d2" value="attribute.integrity"></attvalue>
+          <attvalue for="d1" value="0.498306874454"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="18.542702"></viz:size>
+        <viz:position x="-127.14003" y="116.91596" z="0.0"></viz:position>
+        <viz:color r="8" g="133" b="195"></viz:color>
+      </node>
+      <node id="action.malware.variety.Capture stored data" label="action.malware.variety.Capture stored data">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.00873871249636"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="5.610911"></viz:size>
+        <viz:position x="166.18948" y="20.846716" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.malware.variety.Downloader" label="action.malware.variety.Downloader">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0223565394699"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="8.13748"></viz:size>
+        <viz:position x="152.21764" y="-64.79201" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.malware.variety.Spyware/Keylogger" label="action.malware.variety.Spyware/Keylogger">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0380498106612"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="9.451843"></viz:size>
+        <viz:position x="110.091095" y="-122.05433" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="attribute.integrity.variety.Repurpose" label="attribute.integrity.variety.Repurpose">
+        <attvalues>
+          <attvalue for="d2" value="attribute.integrity"></attvalue>
+          <attvalue for="d1" value="0.882883046898"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-83.997086" y="151.4326" z="0.0"></viz:position>
+        <viz:color r="8" g="133" b="195"></viz:color>
+      </node>
+      <node id="attribute.availability.variety.Interruption" label="attribute.availability.variety.Interruption">
+        <attvalues>
+          <attvalue for="d2" value="attribute.availability"></attvalue>
+          <attvalue for="d1" value="0.0330068453248"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="9.085762"></viz:size>
+        <viz:position x="-107.05779" y="-127.3637" z="0.0"></viz:position>
+        <viz:color r="195" g="133" b="8"></viz:color>
+      </node>
+      <node id="action.social.variety.Phishing" label="action.social.variety.Phishing">
+        <attvalues>
+          <attvalue for="d2" value="action.social"></attvalue>
+          <attvalue for="d1" value="0.146063938246"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="13.701491"></viz:size>
+        <viz:position x="-36.86606" y="-175.57095" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="133"></viz:color>
+      </node>
+      <node id="attribute.integrity.variety.Software installation" label="attribute.integrity.variety.Software installation">
+        <attvalues>
+          <attvalue for="d2" value="attribute.integrity"></attvalue>
+          <attvalue for="d1" value="0.790434750947"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="19.876797"></viz:size>
+        <viz:position x="-32.55209" y="177.77783" z="0.0"></viz:position>
+        <viz:color r="8" g="133" b="195"></viz:color>
+      </node>
+      <node id="action.physical.variety.Skimmer" label="action.physical.variety.Skimmer">
+        <attvalues>
+          <attvalue for="d2" value="action.physical"></attvalue>
+          <attvalue for="d1" value="0.0120521409846"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="6.6699743"></viz:size>
+        <viz:position x="-6.1372776" y="-164.31491" z="0.0"></viz:position>
+        <viz:color r="8" g="195" b="8"></viz:color>
+      </node>
+      <node id="attribute.integrity.variety.Hardware tampering" label="attribute.integrity.variety.Hardware tampering">
+        <attvalues>
+          <attvalue for="d2" value="attribute.integrity"></attvalue>
+          <attvalue for="d1" value="0.0133993591611"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="6.9349117"></viz:size>
+        <viz:position x="-167.56433" y="34.411694" z="0.0"></viz:position>
+        <viz:color r="8" g="133" b="195"></viz:color>
+      </node>
+      <node id="action.hacking.variety.Brute force" label="action.hacking.variety.Brute force">
+        <attvalues>
+          <attvalue for="d2" value="action.hacking"></attvalue>
+          <attvalue for="d1" value="0.0312044858724"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="8.94453"></viz:size>
+        <viz:position x="45.97074" y="166.05225" z="0.0"></viz:position>
+        <viz:color r="8" g="195" b="133"></viz:color>
+      </node>
+      <node id="attribute.confidentiality.data.variety.Secrets" label="attribute.confidentiality.data.variety.Secrets">
+        <attvalues>
+          <attvalue for="d2" value="attribute.confidentiality"></attvalue>
+          <attvalue for="d1" value="0.0179143606175"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="7.620309"></viz:size>
+        <viz:position x="-163.08241" y="-44.47476" z="0.0"></viz:position>
+        <viz:color r="133" g="8" b="195"></viz:color>
+      </node>
+      <node id="attribute.availability.variety.Degradation" label="attribute.availability.variety.Degradation">
+        <attvalues>
+          <attvalue for="d2" value="attribute.availability"></attvalue>
+          <attvalue for="d1" value="0.0659044567434"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="11.002321"></viz:size>
+        <viz:position x="-83.042915" y="-143.42601" z="0.0"></viz:position>
+        <viz:color r="195" g="133" b="8"></viz:color>
+      </node>
+      <node id="attribute.confidentiality.data.variety.Internal" label="attribute.confidentiality.data.variety.Internal">
+        <attvalues>
+          <attvalue for="d2" value="attribute.confidentiality"></attvalue>
+          <attvalue for="d1" value="0.0167127876493"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="7.4587746"></viz:size>
+        <viz:position x="-141.11726" y="-90.52502" z="0.0"></viz:position>
+        <viz:color r="133" g="8" b="195"></viz:color>
+      </node>
+      <node id="attribute.confidentiality.data.variety.System" label="attribute.confidentiality.data.variety.System">
+        <attvalues>
+          <attvalue for="d2" value="attribute.confidentiality"></attvalue>
+          <attvalue for="d1" value="0.0102315758812"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="6.2147856"></viz:size>
+        <viz:position x="-167.70203" y="-25.107122" z="0.0"></viz:position>
+        <viz:color r="133" g="8" b="195"></viz:color>
+      </node>
+      <node id="action.hacking.variety.Use of stolen creds" label="action.hacking.variety.Use of stolen creds">
+        <attvalues>
+          <attvalue for="d2" value="action.hacking"></attvalue>
+          <attvalue for="d1" value="0.0338443052724"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="9.14937"></viz:size>
+        <viz:position x="136.45535" y="101.07257" z="0.0"></viz:position>
+        <viz:color r="8" g="195" b="133"></viz:color>
+      </node>
+      <node id="action.malware.variety.Backdoor" label="action.malware.variety.Backdoor">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0468977570638"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="10.014776"></viz:size>
+        <viz:position x="150.38083" y="77.28301" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.malware.variety.Client-side attack" label="action.malware.variety.Client-side attack">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0226660355374"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="8.169902"></viz:size>
+        <viz:position x="166.97522" y="1.0293632" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.malware.vector.Web download" label="action.malware.vector.Web download">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.010704922808"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="6.349062"></viz:size>
+        <viz:position x="32.568913" y="-165.40398" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.malware.variety.C2" label="action.malware.variety.C2">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.108906204486"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="12.641195"></viz:size>
+        <viz:position x="161.58212" y="46.695755" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.malware.vector.Web drive-by" label="action.malware.vector.Web drive-by">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0100313137198"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="6.152979"></viz:size>
+        <viz:position x="12.311289" y="-163.79715" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.social.variety.Scam" label="action.social.variety.Scam">
+        <attvalues>
+          <attvalue for="d2" value="action.social"></attvalue>
+          <attvalue for="d1" value="0.00844742207981"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="5.3973584"></viz:size>
+        <viz:position x="-61.63159" y="-153.34256" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="133"></viz:color>
+      </node>
+      <node id="attribute.integrity.variety.Modify configuration" label="attribute.integrity.variety.Modify configuration">
+        <attvalues>
+          <attvalue for="d2" value="attribute.integrity"></attvalue>
+          <attvalue for="d1" value="0.0157114768424"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="7.3143864"></viz:size>
+        <viz:position x="-148.76306" y="86.69663" z="0.0"></viz:position>
+        <viz:color r="8" g="133" b="195"></viz:color>
+      </node>
+      <node id="action.malware.vector.Direct install" label="action.malware.vector.Direct install">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0674701427323"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="11.073997"></viz:size>
+        <viz:position x="86.352745" y="-139.601" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="attribute.integrity.variety.Alter behavior" label="attribute.integrity.variety.Alter behavior">
+        <attvalues>
+          <attvalue for="d2" value="attribute.integrity"></attvalue>
+          <attvalue for="d1" value="0.166636323915"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="14.20025"></viz:size>
+        <viz:position x="-170.28009" y="4.139918" z="0.0"></viz:position>
+        <viz:color r="8" g="133" b="195"></viz:color>
+      </node>
+      <node id="action.malware.variety.DoS" label="action.malware.variety.DoS">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0321693853772"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="9.020901"></viz:size>
+        <viz:position x="160.65125" y="-41.591324" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.malware.vector.Email attachment" label="action.malware.vector.Email attachment">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0158207107486"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="7.3306265"></viz:size>
+        <viz:position x="62.75203" y="-151.599" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.malware.variety.Export data" label="action.malware.variety.Export data">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0270353917856"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="8.591442"></viz:size>
+        <viz:position x="140.81934" y="-85.99116" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.malware.variety.Disable controls" label="action.malware.variety.Disable controls">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0109233906204"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="6.4064617"></viz:size>
+        <viz:position x="165.26883" y="-19.877533" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="action.hacking.variety.SQLi" label="action.hacking.variety.SQLi">
+        <attvalues>
+          <attvalue for="d2" value="action.hacking"></attvalue>
+          <attvalue for="d1" value="0.013890911739"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="7.0222144"></viz:size>
+        <viz:position x="96.49973" y="141.41689" z="0.0"></viz:position>
+        <viz:color r="8" g="195" b="133"></viz:color>
+      </node>
+      <node id="action.malware.variety.Ram scraper" label="action.malware.variety.Ram scraper">
+        <attvalues>
+          <attvalue for="d2" value="action.malware"></attvalue>
+          <attvalue for="d1" value="0.0168948441596"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="7.4840155"></viz:size>
+        <viz:position x="127.12889" y="-104.63496" z="0.0"></viz:position>
+        <viz:color r="195" g="8" b="8"></viz:color>
+      </node>
+      <node id="attribute.confidentiality.data.variety.Credentials" label="attribute.confidentiality.data.variety.Credentials">
+        <attvalues>
+          <attvalue for="d2" value="attribute.confidentiality"></attvalue>
+          <attvalue for="d1" value="0.034699970871"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="9.213131"></viz:size>
+        <viz:position x="-126.25738" y="-109.355125" z="0.0"></viz:position>
+        <viz:color r="133" g="8" b="195"></viz:color>
+      </node>
+      <node id="attribute.integrity.variety.Misrepresentation" label="attribute.integrity.variety.Misrepresentation">
+        <attvalues>
+          <attvalue for="d2" value="attribute.integrity"></attvalue>
+          <attvalue for="d1" value="0.0973638217303"></attvalue>
+          <attvalue for="d0" value="attribute"></attvalue>
+        </attvalues>
+        <viz:size value="12.256261"></viz:size>
+        <viz:position x="-160.42404" y="61.076607" z="0.0"></viz:position>
+        <viz:color r="8" g="133" b="195"></viz:color>
+      </node>
+      <node id="action.hacking.variety.Use of backdoor or C2" label="action.hacking.variety.Use of backdoor or C2">
+        <attvalues>
+          <attvalue for="d2" value="action.hacking"></attvalue>
+          <attvalue for="d1" value="0.0829267404602"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="11.724271"></viz:size>
+        <viz:position x="117.10507" y="124.021706" z="0.0"></viz:position>
+        <viz:color r="8" g="195" b="133"></viz:color>
+      </node>
+      <node id="action.hacking.variety.DoS" label="action.hacking.variety.DoS">
+        <attvalues>
+          <attvalue for="d2" value="action.hacking"></attvalue>
+          <attvalue for="d1" value="0.0804689775706"></attvalue>
+          <attvalue for="d0" value="action"></attvalue>
+        </attvalues>
+        <viz:size value="11.627096"></viz:size>
+        <viz:position x="73.51052" y="155.24312" z="0.0"></viz:position>
+        <viz:color r="8" g="195" b="133"></viz:color>
+      </node>
+      <node id="Incident Begins" label="Incident Begins">
+        <attvalues>
+          <attvalue for="d2" value="Start"></attvalue>
+          <attvalue for="d1" value="0.01"></attvalue>
+          <attvalue for="d0" value="Start"></attvalue>
+        </attvalues>
+        <viz:size value="6.1429954"></viz:size>
+        <viz:position x="234.79865" y="-189.36447" z="0.0"></viz:position>
+        <viz:color r="8" g="8" b="195"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="action.malware.vector.Email link" target="action.social.variety.Phishing" weight="0.052349497">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email link" target="attribute.integrity.variety.Software installation" weight="0.05646267">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email link" target="attribute.confidentiality.data.variety.Secrets" weight="0.017699115">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email link" target="attribute.integrity.variety.Alter behavior" weight="0.052474137">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email link" target="action.malware.vector.Email attachment" weight="0.013212016">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email link" target="action.hacking.variety.Use of backdoor or C2" weight="0.022435497">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.Payment" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Modify data" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.malware.variety.Downloader" weight="0.04823632">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.malware.variety.Spyware/Keylogger" weight="0.03826499">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.social.variety.Phishing" weight="0.04586813">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="attribute.integrity.variety.Software installation" weight="0.059827995">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.hacking.variety.Brute force" weight="0.019693382">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="attribute.confidentiality.data.variety.Secrets" weight="0.038888197">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="attribute.confidentiality.data.variety.Internal" weight="0.043375295">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="attribute.confidentiality.data.variety.System" weight="0.04225352">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.hacking.variety.Use of stolen creds" weight="0.026174748">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.malware.variety.Backdoor" weight="0.049856663">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.malware.variety.C2" weight="0.04075782">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="attribute.integrity.variety.Modify configuration" weight="0.03514895">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.malware.vector.Direct install" weight="0.02256014">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="attribute.integrity.variety.Alter behavior" weight="0.046242055">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.malware.vector.Email attachment" weight="0.044995636">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.malware.variety.Export data" weight="0.039760686">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.malware.variety.Disable controls" weight="0.016328057">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.malware.variety.Ram scraper" weight="0.013212016">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="attribute.confidentiality.data.variety.Credentials" weight="0.034276456">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Capture stored data" target="action.hacking.variety.Use of backdoor or C2" weight="0.04823632">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="attribute.integrity.variety.Modify data" weight="0.030537205">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.variety.Capture stored data" weight="0.04823632">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.variety.Spyware/Keylogger" weight="0.069176115">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="attribute.integrity.variety.Repurpose" weight="0.05421912">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.social.variety.Phishing" weight="0.052848063">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="attribute.integrity.variety.Software installation" weight="0.15305996">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.hacking.variety.Brute force" weight="0.014956999">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="attribute.confidentiality.data.variety.Secrets" weight="0.04225352">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="attribute.confidentiality.data.variety.Internal" weight="0.047239188">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="attribute.confidentiality.data.variety.System" weight="0.045494203">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.hacking.variety.Use of stolen creds" weight="0.027296523">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.variety.Backdoor" weight="0.09211019">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.variety.Client-side attack" weight="0.048610244">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.variety.C2" weight="0.12501559">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.vector.Web drive-by" weight="0.038015705">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="attribute.integrity.variety.Modify configuration" weight="0.07927209">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.vector.Direct install" weight="0.019194815">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="attribute.integrity.variety.Alter behavior" weight="0.0589555">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.variety.DoS" weight="0.032531474">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.vector.Email attachment" weight="0.054842327">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.variety.Export data" weight="0.04362458">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.malware.variety.Disable controls" weight="0.028792223">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="attribute.confidentiality.data.variety.Credentials" weight="0.044247787">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Downloader" target="action.hacking.variety.Use of backdoor or C2" weight="0.0574598">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.confidentiality.data.variety.Payment" weight="0.05708588">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.integrity.variety.Modify data" weight="0.019319456">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.variety.Capture stored data" weight="0.03826499">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.variety.Downloader" weight="0.069176115">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.integrity.variety.Repurpose" weight="0.049856663">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.social.variety.Phishing" weight="0.06618472">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.integrity.variety.Software installation" weight="0.26050106">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.hacking.variety.Brute force" weight="0.08812165">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.confidentiality.data.variety.Secrets" weight="0.028044373">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.confidentiality.data.variety.Internal" weight="0.03851427">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.confidentiality.data.variety.System" weight="0.035772156">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.hacking.variety.Use of stolen creds" weight="0.08974199">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.variety.Backdoor" weight="0.0873738">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.variety.Client-side attack" weight="0.038140345">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.vector.Web download" weight="0.017574474">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.variety.C2" weight="0.10582077">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.vector.Web drive-by" weight="0.046242055">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.integrity.variety.Modify configuration" weight="0.051352363">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.vector.Direct install" weight="0.09834227">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.integrity.variety.Alter behavior" weight="0.07017325">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.vector.Email attachment" weight="0.04898417">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.variety.Export data" weight="0.12962732">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.malware.variety.Disable controls" weight="0.04586813">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="attribute.confidentiality.data.variety.Credentials" weight="0.13336657">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Spyware/Keylogger" target="action.hacking.variety.Use of backdoor or C2" weight="0.09535087">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Repurpose" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.availability.variety.Interruption" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.vector.Email link" weight="0.052349497">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.integrity.variety.Modify data" weight="0.63479996">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.variety.Capture stored data" weight="0.04586813">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.variety.Downloader" weight="0.052848063">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.variety.Spyware/Keylogger" weight="0.06618472">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.integrity.variety.Repurpose" weight="0.61722547">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.integrity.variety.Software installation" weight="0.2866758">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.hacking.variety.Brute force" weight="0.012962732">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.confidentiality.data.variety.Secrets" weight="0.07964602">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.confidentiality.data.variety.Internal" weight="0.049233455">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.confidentiality.data.variety.System" weight="0.044870995">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.hacking.variety.Use of stolen creds" weight="0.043375295">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.variety.Backdoor" weight="0.069176115">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.variety.C2" weight="0.055465538">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.integrity.variety.Modify configuration" weight="0.037392497">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.vector.Direct install" weight="0.01433379">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.integrity.variety.Alter behavior">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.vector.Email attachment" weight="0.10108438">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.variety.Export data" weight="0.057709087">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.malware.variety.Disable controls" weight="0.01882089">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.confidentiality.data.variety.Credentials" weight="0.05421912">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="attribute.integrity.variety.Misrepresentation" weight="0.61660224">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Phishing" target="action.hacking.variety.Use of backdoor or C2" weight="0.08699988">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.Capture stored data" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.Downloader" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.Spyware/Keylogger" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.Backdoor" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.Client-side attack" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.C2" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.DoS" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.Export data" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.Disable controls" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Software installation" target="action.malware.variety.Ram scraper" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.physical.variety.Skimmer" target="attribute.confidentiality.data.variety.Payment" weight="0.08251277">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.physical.variety.Skimmer" target="attribute.integrity.variety.Hardware tampering" weight="0.072167516">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Hardware tampering" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Hardware tampering" target="action.physical.variety.Skimmer" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="attribute.confidentiality.data.variety.Payment" weight="0.13984793">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.variety.Capture stored data" weight="0.019693382">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.variety.Downloader" weight="0.014956999">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.variety.Spyware/Keylogger" weight="0.08812165">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.social.variety.Phishing" weight="0.012962732">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="attribute.integrity.variety.Software installation" weight="0.19194815">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="attribute.confidentiality.data.variety.Secrets" weight="0.012838091">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="attribute.confidentiality.data.variety.Internal" weight="0.018945532">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="attribute.confidentiality.data.variety.System" weight="0.017823758">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.hacking.variety.Use of stolen creds" weight="0.050978437">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.variety.Backdoor" weight="0.06618472">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.variety.C2" weight="0.014707715">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="attribute.integrity.variety.Modify configuration" weight="0.018696249">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.vector.Direct install" weight="0.17412439">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="attribute.integrity.variety.Alter behavior" weight="0.0142091485">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.vector.Email attachment" weight="0.012090241">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.variety.Export data" weight="0.08724916">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.variety.Disable controls" weight="0.04063318">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.malware.variety.Ram scraper" weight="0.07939673">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="attribute.confidentiality.data.variety.Credentials" weight="0.09235947">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Brute force" target="action.hacking.variety.Use of backdoor or C2" weight="0.066434">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.Secrets" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.availability.variety.Degradation" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.Internal" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.System" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.System" target="action.hacking.variety.Use of stolen creds" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.System" target="action.hacking.variety.SQLi" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.System" target="action.hacking.variety.Use of backdoor or C2" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.System" target="action.hacking.variety.DoS" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.confidentiality.data.variety.Payment" weight="0.037517138">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.integrity.variety.Modify data" weight="0.05795837">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.variety.Capture stored data" weight="0.026174748">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.variety.Downloader" weight="0.027296523">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.variety.Spyware/Keylogger" weight="0.08974199">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.integrity.variety.Repurpose" weight="0.048485603">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.social.variety.Phishing" weight="0.043375295">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.integrity.variety.Software installation" weight="0.14209148">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.hacking.variety.Brute force" weight="0.050978437">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.confidentiality.data.variety.Secrets" weight="0.029540073">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.confidentiality.data.variety.Internal" weight="0.03539823">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.confidentiality.data.variety.System" weight="0.03228219">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.variety.Backdoor" weight="0.054593045">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.variety.C2" weight="0.038763557">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.vector.Web drive-by" weight="0.01134239">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.integrity.variety.Modify configuration" weight="0.043126013">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.vector.Direct install" weight="0.08425776">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.integrity.variety.Alter behavior" weight="0.04748847">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.vector.Email attachment" weight="0.03714321">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.variety.Export data" weight="0.09809298">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.variety.Disable controls" weight="0.022186214">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.hacking.variety.SQLi" weight="0.046865262">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.malware.variety.Ram scraper" weight="0.023681914">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="attribute.confidentiality.data.variety.Credentials" weight="0.13685654">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of stolen creds" target="action.hacking.variety.Use of backdoor or C2" weight="0.102081515">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.confidentiality.data.variety.Payment" weight="0.051103078">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.integrity.variety.Modify data" weight="0.03988533">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.variety.Capture stored data" weight="0.049856663">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.variety.Downloader" weight="0.09211019">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.variety.Spyware/Keylogger" weight="0.0873738">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.integrity.variety.Repurpose" weight="0.13984793">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.social.variety.Phishing" weight="0.069176115">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.integrity.variety.Software installation" weight="0.3210769">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.hacking.variety.Brute force" weight="0.06618472">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.confidentiality.data.variety.Secrets" weight="0.047862396">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.confidentiality.data.variety.Internal" weight="0.053720552">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.confidentiality.data.variety.System" weight="0.052349497">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.hacking.variety.Use of stolen creds" weight="0.054593045">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.variety.C2" weight="0.17861149">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.vector.Web drive-by" weight="0.012713449">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.integrity.variety.Modify configuration" weight="0.041879594">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.vector.Direct install" weight="0.20216876">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.integrity.variety.Alter behavior" weight="0.0709211">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.variety.DoS" weight="0.032531474">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.vector.Email attachment" weight="0.054468405">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.variety.Export data" weight="0.09996261">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.variety.Disable controls" weight="0.052474137">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.hacking.variety.SQLi" weight="0.012339524">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.malware.variety.Ram scraper" weight="0.01956874">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="attribute.confidentiality.data.variety.Credentials" weight="0.09211019">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Backdoor" target="action.hacking.variety.Use of backdoor or C2" weight="0.26648387">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Client-side attack" target="action.malware.variety.Downloader" weight="0.048610244">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Client-side attack" target="action.malware.variety.Spyware/Keylogger" weight="0.038140345">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Client-side attack" target="attribute.integrity.variety.Repurpose" weight="0.13548549">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Client-side attack" target="attribute.integrity.variety.Software installation" weight="0.15517886">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Client-side attack" target="action.malware.variety.C2" weight="0.042502806">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Client-side attack" target="action.malware.vector.Web drive-by" weight="0.03240683">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Client-side attack" target="attribute.integrity.variety.Modify configuration" weight="0.032656115">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Client-side attack" target="action.malware.vector.Direct install" weight="0.10295401">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Client-side attack" target="action.malware.variety.Disable controls" weight="0.012214882">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web download" target="action.malware.variety.Spyware/Keylogger" weight="0.017574474">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web download" target="attribute.integrity.variety.Software installation" weight="0.07328929">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web download" target="action.social.variety.Scam" weight="0.05347127">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web download" target="attribute.integrity.variety.Alter behavior" weight="0.056088746">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="attribute.integrity.variety.Modify data" weight="0.04387386">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.variety.Capture stored data" weight="0.04075782">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.variety.Downloader" weight="0.12501559">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.variety.Spyware/Keylogger" weight="0.10582077">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="attribute.integrity.variety.Repurpose" weight="0.35709834">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.social.variety.Phishing" weight="0.055465538">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="attribute.integrity.variety.Software installation" weight="0.74560636">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.hacking.variety.Brute force" weight="0.014707715">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="attribute.confidentiality.data.variety.Secrets" weight="0.059080146">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="attribute.confidentiality.data.variety.Internal" weight="0.05023059">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="attribute.confidentiality.data.variety.System" weight="0.046366695">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.hacking.variety.Use of stolen creds" weight="0.038763557">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.variety.Backdoor" weight="0.17861149">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.variety.Client-side attack" weight="0.042502806">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.vector.Web drive-by" weight="0.056711953">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="attribute.integrity.variety.Modify configuration" weight="0.07104574">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.vector.Direct install" weight="0.10943537">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="attribute.integrity.variety.Alter behavior" weight="0.06281939">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.variety.DoS" weight="0.21912003">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.vector.Email attachment" weight="0.051726285">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.variety.Export data" weight="0.062196188">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.malware.variety.Disable controls" weight="0.02866758">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="attribute.confidentiality.data.variety.Credentials" weight="0.053969838">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.C2" target="action.hacking.variety.Use of backdoor or C2" weight="0.37866133">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="action.malware.variety.Downloader" weight="0.038015705">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="action.malware.variety.Spyware/Keylogger" weight="0.046242055">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="attribute.integrity.variety.Repurpose" weight="0.023432631">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="attribute.integrity.variety.Software installation" weight="0.06867755">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="attribute.confidentiality.data.variety.Secrets" weight="0.01508164">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="attribute.confidentiality.data.variety.Internal" weight="0.010220616">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="action.hacking.variety.Use of stolen creds" weight="0.01134239">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="action.malware.variety.Backdoor" weight="0.012713449">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="action.malware.variety.Client-side attack" weight="0.03240683">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="action.malware.variety.C2" weight="0.056711953">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="attribute.integrity.variety.Modify configuration" weight="0.025551539">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="attribute.integrity.variety.Alter behavior" weight="0.010719182">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="action.malware.variety.Export data" weight="0.01956874">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="attribute.confidentiality.data.variety.Credentials" weight="0.02031659">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Web drive-by" target="action.hacking.variety.Use of backdoor or C2" weight="0.02704724">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Scam" target="attribute.integrity.variety.Software installation" weight="0.057584446">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Scam" target="action.malware.vector.Web download" weight="0.05347127">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.social.variety.Scam" target="attribute.integrity.variety.Alter behavior" weight="0.057833727">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Modify configuration" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.confidentiality.data.variety.Payment" weight="0.1642777">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.integrity.variety.Modify data" weight="0.018571606">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.variety.Capture stored data" weight="0.02256014">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.variety.Downloader" weight="0.019194815">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.variety.Spyware/Keylogger" weight="0.09834227">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.integrity.variety.Repurpose" weight="0.2307117">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.social.variety.Phishing" weight="0.01433379">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.integrity.variety.Software installation" weight="0.46192196">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.hacking.variety.Brute force" weight="0.17412439">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.confidentiality.data.variety.Secrets" weight="0.012962732">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.confidentiality.data.variety.Internal" weight="0.020067306">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.confidentiality.data.variety.System" weight="0.02031659">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.hacking.variety.Use of stolen creds" weight="0.08425776">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.variety.Backdoor" weight="0.20216876">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.variety.Client-side attack" weight="0.10295401">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.variety.C2" weight="0.10943537">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.integrity.variety.Modify configuration" weight="0.018571606">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.integrity.variety.Alter behavior" weight="0.015455565">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.vector.Email attachment" weight="0.012838091">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.variety.Export data" weight="0.10993394">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.variety.Disable controls" weight="0.04362458">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.hacking.variety.SQLi" weight="0.010719182">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.malware.variety.Ram scraper" weight="0.10544684">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="attribute.confidentiality.data.variety.Credentials" weight="0.12077776">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Direct install" target="action.hacking.variety.Use of backdoor or C2" weight="0.19444098">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Alter behavior" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Alter behavior" target="action.social.variety.Phishing" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Alter behavior" target="action.social.variety.Scam" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.DoS" target="attribute.integrity.variety.Modify data" weight="0.021438364">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.DoS" target="action.malware.variety.Downloader" weight="0.032531474">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.DoS" target="attribute.integrity.variety.Repurpose" weight="0.19743238">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.DoS" target="attribute.integrity.variety.Software installation" weight="0.2202418">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.DoS" target="action.malware.variety.Backdoor" weight="0.032531474">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.DoS" target="action.malware.variety.C2" weight="0.21912003">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.DoS" target="action.hacking.variety.Use of backdoor or C2" weight="0.18658856">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.malware.vector.Email link" weight="0.013212016">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.malware.variety.Capture stored data" weight="0.044995636">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.malware.variety.Downloader" weight="0.054842327">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.malware.variety.Spyware/Keylogger" weight="0.04898417">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.social.variety.Phishing" weight="0.10108438">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="attribute.integrity.variety.Software installation" weight="0.1083136">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.hacking.variety.Brute force" weight="0.012090241">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="attribute.confidentiality.data.variety.Secrets" weight="0.05434376">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="attribute.confidentiality.data.variety.Internal" weight="0.04748847">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="attribute.confidentiality.data.variety.System" weight="0.04599277">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.hacking.variety.Use of stolen creds" weight="0.03714321">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.malware.variety.Backdoor" weight="0.054468405">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.malware.variety.C2" weight="0.051726285">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="attribute.integrity.variety.Modify configuration" weight="0.036270723">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.malware.vector.Direct install" weight="0.012838091">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="attribute.integrity.variety.Alter behavior" weight="0.1053222">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.malware.variety.Export data" weight="0.049856663">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.malware.variety.Disable controls" weight="0.018446965">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="attribute.confidentiality.data.variety.Credentials" weight="0.048360962">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.vector.Email attachment" target="action.hacking.variety.Use of backdoor or C2" weight="0.06830363">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="attribute.confidentiality.data.variety.Payment" weight="0.06531223">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.variety.Capture stored data" weight="0.039760686">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.variety.Downloader" weight="0.04362458">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.variety.Spyware/Keylogger" weight="0.12962732">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.social.variety.Phishing" weight="0.057709087">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="attribute.integrity.variety.Software installation" weight="0.18509285">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.hacking.variety.Brute force" weight="0.08724916">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="attribute.confidentiality.data.variety.Secrets" weight="0.03913748">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="attribute.confidentiality.data.variety.Internal" weight="0.043250654">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="attribute.confidentiality.data.variety.System" weight="0.04212888">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.hacking.variety.Use of stolen creds" weight="0.09809298">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.variety.Backdoor" weight="0.09996261">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.variety.C2" weight="0.062196188">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.vector.Web drive-by" weight="0.01956874">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="attribute.integrity.variety.Modify configuration" weight="0.032531474">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.vector.Direct install" weight="0.10993394">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="attribute.integrity.variety.Alter behavior" weight="0.05870622">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.vector.Email attachment" weight="0.049856663">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.variety.Disable controls" weight="0.051352363">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.malware.variety.Ram scraper" weight="0.038763557">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="attribute.confidentiality.data.variety.Credentials" weight="0.12875482">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Export data" target="action.hacking.variety.Use of backdoor or C2" weight="0.11192821">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="attribute.confidentiality.data.variety.Payment" weight="0.021438364">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.malware.variety.Capture stored data" weight="0.016328057">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.malware.variety.Downloader" weight="0.028792223">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.malware.variety.Spyware/Keylogger" weight="0.04586813">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="attribute.integrity.variety.Repurpose" weight="0.015206282">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.social.variety.Phishing" weight="0.01882089">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="attribute.integrity.variety.Software installation" weight="0.074784994">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.hacking.variety.Brute force" weight="0.04063318">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="attribute.confidentiality.data.variety.Secrets" weight="0.015455565">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="attribute.confidentiality.data.variety.Internal" weight="0.020815156">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="attribute.confidentiality.data.variety.System" weight="0.020565873">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.hacking.variety.Use of stolen creds" weight="0.022186214">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.malware.variety.Backdoor" weight="0.052474137">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.malware.variety.Client-side attack" weight="0.012214882">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.malware.variety.C2" weight="0.02866758">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="attribute.integrity.variety.Modify configuration" weight="0.023183348">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.malware.vector.Direct install" weight="0.04362458">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="attribute.integrity.variety.Alter behavior" weight="0.018945532">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.malware.vector.Email attachment" weight="0.018446965">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.malware.variety.Export data" weight="0.051352363">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="attribute.confidentiality.data.variety.Credentials" weight="0.04536956">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Disable controls" target="action.hacking.variety.Use of backdoor or C2" weight="0.04898417">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.SQLi" target="attribute.confidentiality.data.variety.Payment" weight="0.014956999">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.SQLi" target="attribute.integrity.variety.Modify data" weight="0.05060451">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.SQLi" target="attribute.integrity.variety.Repurpose" weight="0.09510158">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.SQLi" target="attribute.integrity.variety.Software installation" weight="0.016203415">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.SQLi" target="action.hacking.variety.Use of stolen creds" weight="0.046865262">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.SQLi" target="action.malware.variety.Backdoor" weight="0.012339524">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.SQLi" target="action.malware.vector.Direct install" weight="0.010719182">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.SQLi" target="attribute.confidentiality.data.variety.Credentials" weight="0.012090241">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.SQLi" target="action.hacking.variety.Use of backdoor or C2" weight="0.047987036">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="attribute.confidentiality.data.variety.Payment" weight="0.104948275">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="attribute.integrity.variety.Modify data" weight="0.012838091">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="action.malware.variety.Capture stored data" weight="0.013212016">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="attribute.integrity.variety.Software installation" weight="0.115667455">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="action.hacking.variety.Brute force" weight="0.07939673">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="action.hacking.variety.Use of stolen creds" weight="0.023681914">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="action.malware.variety.Backdoor" weight="0.01956874">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="action.malware.vector.Direct install" weight="0.10544684">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="action.malware.variety.Export data" weight="0.038763557">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="attribute.confidentiality.data.variety.Credentials" weight="0.036520004">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.malware.variety.Ram scraper" target="action.hacking.variety.Use of backdoor or C2" weight="0.019693382">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.Credentials" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.confidentiality.data.variety.Credentials" target="action.hacking.variety.Use of stolen creds" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="attribute.integrity.variety.Misrepresentation" target="Incident Ends" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.vector.Email link" weight="0.022435497">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.confidentiality.data.variety.Payment" weight="0.045618847">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.integrity.variety.Modify data" weight="0.058332294">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.variety.Capture stored data" weight="0.04823632">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.variety.Downloader" weight="0.0574598">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.variety.Spyware/Keylogger" weight="0.09535087">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.integrity.variety.Repurpose" weight="0.36632183">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.social.variety.Phishing" weight="0.08699988">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.integrity.variety.Software installation" weight="0.52760816">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.hacking.variety.Brute force" weight="0.066434">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.confidentiality.data.variety.Secrets" weight="0.06842827">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.confidentiality.data.variety.Internal" weight="0.059204787">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.confidentiality.data.variety.System" weight="0.05721052">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.hacking.variety.Use of stolen creds" weight="0.102081515">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.variety.Backdoor" weight="0.26648387">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.variety.C2" weight="0.37866133">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.vector.Web drive-by" weight="0.02704724">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.integrity.variety.Modify configuration" weight="0.04362458">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.vector.Direct install" weight="0.19444098">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.integrity.variety.Alter behavior" weight="0.08949271">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.variety.DoS" weight="0.18658856">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.vector.Email attachment" weight="0.06830363">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.variety.Export data" weight="0.11192821">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.variety.Disable controls" weight="0.04898417">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.hacking.variety.SQLi" weight="0.047987036">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="action.malware.variety.Ram scraper" weight="0.019693382">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.Use of backdoor or C2" target="attribute.confidentiality.data.variety.Credentials" weight="0.09472766">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.DoS" target="attribute.availability.variety.Interruption" weight="0.09697121">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="action.hacking.variety.DoS" target="attribute.availability.variety.Degradation" weight="0.45008102">
+        <viz:color r="229" g="33" b="33"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="veris"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.vector.Email link" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.Capture stored data" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.Downloader" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.Spyware/Keylogger" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.social.variety.Phishing" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.physical.variety.Skimmer" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.hacking.variety.Brute force" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.hacking.variety.Use of stolen creds" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.Backdoor" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.Client-side attack" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.vector.Web download" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.C2" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.vector.Web drive-by" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.social.variety.Scam" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.vector.Direct install" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.DoS" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.vector.Email attachment" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.Export data" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.Disable controls" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.hacking.variety.SQLi" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.malware.variety.Ram scraper" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.hacking.variety.Use of backdoor or C2" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="Incident Begins" target="action.hacking.variety.DoS" weight="0.25">
+        <viz:color r="33" g="229" b="229"></viz:color>
+        <attvalues>
+          <attvalue for="d3" value="mapping"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
