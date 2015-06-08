@@ -47,6 +47,10 @@
           chart.xAxis.tickFormat(d3.format('.02f'));
           chart.yAxis.tickFormat(d3.format('.02f'));
 
+          //Axis Label
+          chart.yAxis.axisLabel('Shortest Path Distance Before Mitigation');
+          chart.xAxis.axisLabel('Mitigation Number');
+
 //          console.log(myData)  // DEBUG
 
           d3.select('#chart svg')
