@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 89.368 73.066" enable-background="new 0 0 89.368 73.066" xml:space="preserve">
+<g id="XMLID_638_">
+	
+		<circle id="XMLID_652_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" cx="6.09" cy="6.09" r="5.84"/>
+	<text id="XMLID_651_" transform="matrix(1 0 0 1 15.0169 8.4969)" font-family="'SourceSansPro-Bold'" font-size="7.2081px">ACTIONS</text>
+	<text id="XMLID_650_" transform="matrix(1 0 0 1 0.0823 39.5878)" font-family="'SourceSansPro-Bold'" font-size="7.2081px">FREQUENCY IN INCIDENTS</text>
+	<text id="XMLID_649_" transform="matrix(1 0 0 1 0.0823 47.6053)" font-family="'SourceSansPro-Bold'" font-size="7.2081px">LOW</text>
+	<text id="XMLID_648_" transform="matrix(1 0 0 1 15.0169 24.1718)" font-family="'SourceSansPro-Regular'" font-size="7.2081px">ATTRIBUTES</text>
+	<g id="XMLID_644_">
+		<circle id="XMLID_9_" fill="#FFFFFF" cx="6.09" cy="21.758" r="5.84"/>
+		
+			<circle id="XMLID_8_" fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1.0178,3.0533" cx="6.09" cy="21.758" r="5.84"/>
+	</g>
+	<circle id="XMLID_643_" fill="#D60005" cx="56.903" cy="61.723" r="11.343"/>
+	<circle id="XMLID_642_" fill="#FB5152" cx="31.319" cy="61.723" r="8.08"/>
+	<circle id="XMLID_641_" fill="#F8B74D" cx="13.517" cy="61.723" r="4.766"/>
+	<circle id="XMLID_640_" fill="#F5EE57" cx="2.491" cy="61.723" r="2.408"/>
+	<text id="XMLID_639_" transform="matrix(1 0 0 1 50.8968 47.6034)" font-family="'SourceSansPro-Bold'" font-size="7.2081px">HIGH</text>
+</g>
+</svg>

@@ -1,0 +1,1552 @@
+{
+    "graphml": {
+        "@xmlns": "http://graphml.graphdrawing.org/xmlns", 
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance", 
+        "@xsi:schemaLocation": "http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd", 
+        "key": [
+            {
+                "@attr.name": "Label", 
+                "@attr.type": "string", 
+                "@for": "edge", 
+                "@id": "d8"
+            }, 
+            {
+                "@attr.name": "weight", 
+                "@attr.type": "double", 
+                "@for": "edge", 
+                "@id": "d7"
+            }, 
+            {
+                "@attr.name": "direction", 
+                "@attr.type": "string", 
+                "@for": "edge", 
+                "@id": "d6"
+            }, 
+            {
+                "@attr.name": "count", 
+                "@attr.type": "int", 
+                "@for": "edge", 
+                "@id": "d5"
+            }, 
+            {
+                "@attr.name": "Label", 
+                "@attr.type": "string", 
+                "@for": "node", 
+                "@id": "d4"
+            }, 
+            {
+                "@attr.name": "weight", 
+                "@attr.type": "double", 
+                "@for": "node", 
+                "@id": "d3"
+            }, 
+            {
+                "@attr.name": "sub_type", 
+                "@attr.type": "string", 
+                "@for": "node", 
+                "@id": "d2"
+            }, 
+            {
+                "@attr.name": "type", 
+                "@attr.type": "string", 
+                "@for": "node", 
+                "@id": "d1"
+            }, 
+            {
+                "@attr.name": "count", 
+                "@attr.type": "int", 
+                "@for": "node", 
+                "@id": "d0"
+            }
+        ], 
+        "graph": {
+            "@edgedefault": "directed", 
+            "node": [
+                {
+                    "@id": "end", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "0"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "end"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "end"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "end"
+                        }
+                    ]
+                }, 
+                {
+                    "@id": "action.hacking", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "12230"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "action"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "action.hacking"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "0.767149629686"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "action.hacking"
+                        }
+                    ]
+                }, 
+                {
+                    "@id": "action.physical", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "532"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "action"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "action.physical"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "0.989871104088"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "action.physical"
+                        }
+                    ]
+                }, 
+                {
+                    "@id": "action.malware", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "38640"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "action"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "action.malware"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "0.264322296899"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "action.malware"
+                        }
+                    ]
+                }, 
+                {
+                    "@id": "attribute.integrity", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "52522"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "attribute"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "attribute.integrity"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "1.90392780306e-05"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "attribute.integrity"
+                        }
+                    ]
+                }, 
+                {
+                    "@id": "start", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "0"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "start"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "start"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "start"
+                        }
+                    ]
+                }, 
+                {
+                    "@id": "attribute.availability", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "12937"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "attribute"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "attribute.availability"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "0.753688860118"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "attribute.availability"
+                        }
+                    ]
+                }, 
+                {
+                    "@id": "action.social", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "9799"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "action"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "action.social"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "0.813434114578"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "action.social"
+                        }
+                    ]
+                }, 
+                {
+                    "@id": "attribute.confidentiality", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "2632"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "attribute"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "attribute.confidentiality"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "0.949888620224"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "attribute.confidentiality"
+                        }
+                    ]
+                }, 
+                {
+                    "@id": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d0", 
+                            "#text": "433"
+                        }, 
+                        {
+                            "@key": "d1", 
+                            "#text": "action"
+                        }, 
+                        {
+                            "@key": "d2", 
+                            "#text": "action.misuse"
+                        }, 
+                        {
+                            "@key": "d3", 
+                            "#text": "0.991755992613"
+                        }, 
+                        {
+                            "@key": "d4", 
+                            "#text": "action.misuse"
+                        }
+                    ]
+                }
+            ], 
+            "edge": [
+                {
+                    "@source": "action.hacking", 
+                    "@target": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "5"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999960608597"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.hacking->action.misuse"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.hacking", 
+                    "@target": "action.malware", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "3725"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.963326603969"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.hacking->action.malware"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.hacking", 
+                    "@target": "attribute.integrity", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "2418"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.976197744842"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.hacking->attribute.integrity"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.hacking", 
+                    "@target": "action.hacking", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "866"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.991481609139"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.hacking->action.hacking"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.hacking", 
+                    "@target": "action.social", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "921"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.99093997735"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.hacking->action.social"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.hacking", 
+                    "@target": "attribute.confidentiality", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1520"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.985041114777"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.hacking->attribute.confidentiality"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.hacking", 
+                    "@target": "attribute.availability", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "12524"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.876675365601"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.hacking->attribute.availability"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.physical", 
+                    "@target": "action.physical", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "132"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.998709931557"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.physical->action.physical"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.physical", 
+                    "@target": "attribute.integrity", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "136"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.998670540155"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.physical->attribute.integrity"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.physical", 
+                    "@target": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "2"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999990152149"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.physical->action.misuse"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.physical", 
+                    "@target": "action.social", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.physical->action.social"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.physical", 
+                    "@target": "attribute.availability", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "251"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.997538037323"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.physical->attribute.availability"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.physical", 
+                    "@target": "attribute.confidentiality", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "373"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.996336599537"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.physical->attribute.confidentiality"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.malware", 
+                    "@target": "action.hacking", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "71"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999310650451"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.malware->action.hacking"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.malware", 
+                    "@target": "action.malware", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "887"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.991274804274"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.malware->action.malware"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.malware", 
+                    "@target": "attribute.integrity", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "46207"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.544970210252"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.malware->attribute.integrity"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.malware", 
+                    "@target": "attribute.availability", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "146"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.998572061648"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.malware->attribute.availability"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.malware", 
+                    "@target": "action.social", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "81"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999212171943"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.malware->action.social"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.malware", 
+                    "@target": "attribute.confidentiality", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "2336"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.9770052686"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.malware->attribute.confidentiality"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.malware", 
+                    "@target": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "5"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999960608597"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.malware->action.misuse"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.integrity", 
+                    "@target": "end", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.integrity->end"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.integrity", 
+                    "@target": "action.hacking", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "27269"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.731468806933"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.integrity->action.hacking"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.integrity", 
+                    "@target": "action.physical", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "132"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.998709931557"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.integrity->action.physical"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.integrity", 
+                    "@target": "action.malware", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "101545"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "9.84785070658e-06"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.integrity->action.malware"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.integrity", 
+                    "@target": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "113"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.998897040721"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.integrity->action.misuse"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.integrity", 
+                    "@target": "action.social", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "32341"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.681520508149"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.integrity->action.social"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "start", 
+                    "@target": "action.social", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "start->action.social"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "start", 
+                    "@target": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "start->action.misuse"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "start", 
+                    "@target": "action.malware", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "start->action.malware"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "start", 
+                    "@target": "action.physical", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "start->action.physical"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "start", 
+                    "@target": "action.hacking", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "start->action.hacking"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.availability", 
+                    "@target": "end", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.availability->end"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.availability", 
+                    "@target": "action.hacking", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "5758"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.943305923482"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.availability->action.hacking"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.availability", 
+                    "@target": "action.physical", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "253"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.997518341622"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.availability->action.physical"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.availability", 
+                    "@target": "action.malware", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "282"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.997232753951"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.availability->action.malware"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.availability", 
+                    "@target": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "17"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999842434389"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.availability->action.misuse"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.availability", 
+                    "@target": "action.social", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "34"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999675020927"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.availability->action.social"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.social", 
+                    "@target": "action.hacking", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "2"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999990152149"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.social->action.hacking"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.social", 
+                    "@target": "action.malware", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "7"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999940912896"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.social->action.malware"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.social", 
+                    "@target": "attribute.integrity", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "11616"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.885617214043"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.social->attribute.integrity"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.social", 
+                    "@target": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "37"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999645477375"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.social->action.misuse"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.social", 
+                    "@target": "action.social", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "6"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999950760746"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.social->action.social"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.social", 
+                    "@target": "attribute.confidentiality", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "960"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.990555911172"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.social->attribute.confidentiality"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.social", 
+                    "@target": "attribute.availability", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.social->attribute.availability"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.confidentiality", 
+                    "@target": "end", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "1"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "1.0"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.confidentiality->end"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.confidentiality", 
+                    "@target": "action.hacking", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "10543"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.896183957851"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.confidentiality->action.hacking"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.confidentiality", 
+                    "@target": "action.physical", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "423"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.995844207002"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.confidentiality->action.physical"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.confidentiality", 
+                    "@target": "action.malware", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "26212"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.74187798513"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.confidentiality->action.malware"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.confidentiality", 
+                    "@target": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "420"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.995873750554"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.confidentiality->action.misuse"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "attribute.confidentiality", 
+                    "@target": "action.social", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "9660"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "backward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.904879610025"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "attribute.confidentiality->action.social"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.misuse", 
+                    "@target": "action.misuse", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "52"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999497759614"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.misuse->action.misuse"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.misuse", 
+                    "@target": "action.physical", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "2"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999990152149"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.misuse->action.physical"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.misuse", 
+                    "@target": "action.malware", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "18"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999832586538"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.misuse->action.malware"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.misuse", 
+                    "@target": "attribute.integrity", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "88"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999143236989"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.misuse->attribute.integrity"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.misuse", 
+                    "@target": "attribute.availability", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "6"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.999950760746"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.misuse->attribute.availability"
+                        }
+                    ]
+                }, 
+                {
+                    "@source": "action.misuse", 
+                    "@target": "attribute.confidentiality", 
+                    "data": [
+                        {
+                            "@key": "d5", 
+                            "#text": "400"
+                        }, 
+                        {
+                            "@key": "d6", 
+                            "#text": "forward"
+                        }, 
+                        {
+                            "@key": "d7", 
+                            "#text": "0.996070707568"
+                        }, 
+                        {
+                            "@key": "d8", 
+                            "#text": "action.misuse->attribute.confidentiality"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

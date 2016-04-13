@@ -1,0 +1,16 @@
+{
+  "name": "dbir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arch-dual.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0"
+  }
+}
